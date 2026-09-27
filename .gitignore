@@ -1,0 +1,93 @@
+# ==============================================================================
+# CCTV Anomaly & Activity Detection - .gitignore
+# ==============================================================================
+
+# --- Datasets and Heavy Media ---
+DCSASS Dataset/
+SHANGHAI/
+Train/
+Test/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.flv
+*.wmv
+
+# --- Python & Bytecode ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Virtual Environments ---
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# --- Sensitive Data & Credentials ---
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.cert
+*.crt
+secrets.json
+credentials.json
+*.pfx
+*.p12
+
+# --- Operating System & Editor Files ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Logs & Temporary Files ---
+*.log
+*.tmp
+*.bak
+tmp/
+temp/
+scratch/
+
+# --- Model Weights / Binary Files ---
+# (Comment out with #! if you want to push small model checkpoints to GitHub)
+*.pt
+*.pth
+*.joblib
+*.onnx
+*.bin
+*.h5
+*.weights
